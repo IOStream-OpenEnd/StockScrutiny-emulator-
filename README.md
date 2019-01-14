@@ -39,4 +39,6 @@ Even using NIFTY and SENSEX data
 
 Most of the times the stock prices depends upon what's going on the news and economy of the country or the infilation of the country. Probaly there are many external factors.
 
-This Part is where use Natural Language Processing or Deep learning models so that it can get the data from the internet and give the prediction of that particualr stock.
+This Part is where use Natural Language Processing or Deep learning models so that it can get the data from the internet and give the prediction of that particular stock.
+
+**Stock market link** https://zerodha.com/varsity/
