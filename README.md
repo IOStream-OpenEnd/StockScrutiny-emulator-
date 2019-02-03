@@ -21,10 +21,10 @@ The following technologies will be used:
 
 - [ ] Make the protocols for connection between MDU & CLIENT and CLIENT & BOOK.
 - [ ] Make the Backend functions of the CLIENT.
-      - [ ] Reading the data from .json file which was received from MDU.
-      - [ ] Encrypting the buy/sell order to sent it to BOOK server.
-      - [ ] Sending the Encrypted data to BOOK and receiving the acknowledgment from BOOK server.
-      - [ ] Storing the list of stocks available in cache.
+     - [ ] Reading the data from .json file which was received from MDU.
+     - [ ] Encrypting the buy/sell order to sent it to BOOK server.
+     - [ ] Sending the Encrypted data to BOOK and receiving the acknowledgment from BOOK server.
+     - [ ] Storing the list of stocks available in cache.
 
 2. BOOK  
 
