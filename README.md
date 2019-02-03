@@ -20,6 +20,7 @@ The following technologies will be used:
 1. CLIENT
 
 - [ ] Make the protocols for connection between MDU & CLIENT and CLIENT & BOOK.
+- [ ] Send a TCP request to MDU with CLIENT IP address to start receiving data from MDU.
 - [ ] Make the Backend functions of the CLIENT.
      - [ ] Reading the data from .json file which was received from MDU.
      - [ ] Encrypting the buy/sell order to sent it to BOOK server.
@@ -38,7 +39,10 @@ The following technologies will be used:
 
 3. MDU
 
-TBD
+- [ ] Make the protocols for connection between MDU and CLIENT.
+- [ ] Establish TCP connection with client, get its IP address and terminate the session.
+- [ ] Load the CSV file. (Should be a separate function because we may replace it with an API) 
+- [ ] Multicast data every second to the CLIENT(s) according to the Stock Market timings.
 
 ### Frontend
 
