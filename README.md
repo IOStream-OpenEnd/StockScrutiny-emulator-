@@ -1,44 +1,54 @@
-# StockScrutiny
+# **StockEmulator**
 
-Predict the Stock prizes based on the data given.
+A stock market simulator is a webapp where users and buy and sell real life stocks using fake money. Users have to pay the actual market price and all the other charges to buy the stocks.
 
-What is Stock market?
+##Requirements
 
-Simply a place where stocks are exchanged!
+TBD
 
-This Project has been divided into 4 chapters:
-* Arbitrage Opportunities
-* Stock analysis and technical analysis (of 1 company)
-* Improve the prediction using sector analysis
-* Fundametal analysis using data over the internet
+The following technologies will be used:
+- ReactJS [Frontend]
+- Bootstrap [Frontend]
+- Node.js [Backend]
+- Express.js [Backend]
+- Firebase [Backend]
 
-**NOTE: Its best for us to complete the project by doing the task of each chapter sequentially**
+##Action Plan
 
-## 1. Arbitrage opportunities
 
-What is an arbitrage opportunities?
-When the **highest seller** and **lowest bidder** has a price difference and when a third person comes in **buy** it from the seller and sells it to bidder and the **profit** that particular person makes in this traction.
+1. There will be a dashboard. Users will only get access to this once they signup for login. This page will also be separated into several components.
 
-suppose David is selling a stock at Rs.10 and Rahul makes an offer of Rs.12 and Ankur comes in buys it from David and sells it to Rahul. The 2 Rupees profit he makes during the transcition is an Arbitrage opportunity.
+- [ ] A component which will show the stock that the user currently holds. It will only be visible when the user click on the show stock button. This component will be situated in the the left side of the webpage.
+- [ ] A component of searchbar. User can enter the name of the stock in this searchbar and information of that particular will be retrieved from the API. It will also include a "Add to the watchlist" button. This component will go in the upper middle portion of the page.
+- [ ] A component of watchlist. This will show the real time data of stocks that the user currently does not own but wants to buy. The real time data include stock name, current market price, OHLC for that day and volume. We will also include a buy and sell button. The Sell button will be grayed out until the user own that stock. This component will go in the lower middle portion of the page.
+- [ ] A box that shows the amount of money the user currently has will also be included. It will be situated the top right corner. A button to logout will also be included. It will be situated in the lower right corner.
+- [ ] Assemble all the above component in a single webpage.
 
-Our Task is to find this particular situation, using the data we have been provided and see how much profit one can make.
+2. There will be a signup page where users have to input their details to get access to the website. The signup page will be divided into several components.
 
-The code of this nothing more than the if-else statement.
+- [ ] Make a component of login (for registered user)
+- [ ] Make a component of signup (for unregistered user)
+- [ ] Make a component of component (button) to switch between login and signup
+- [ ] Assemble all of them into a single webpage.
 
-## 2. Stock Analysis and technical analysis.
+3. TBD **(Backend)**
 
-In this part of this project we will use charts such as **candlestick pattern** to make the analysis of the project!
-**(To be given a detailed update, when this part starts)**
+## Running The Test
 
-## 3. Improve the prediction using sector analysis
+TBD
 
-Our model will make a analysis based on whats going on the whole sector, Like whats generally going on the whole IT industries. 
-Even using NIFTY and SENSEX data
+## Working (Internal):
 
-## 4. Fundamental analysis using the data over the internet
+TBD
 
-Most of the times the stock prices depends upon what's going on the news and economy of the country or the infilation of the country. Probaly there are many external factors.
+## Contribution 
 
-This Part is where use Natural Language Processing or Deep learning models so that it can get the data from the internet and give the prediction of that particular stock.
+TBD
 
-**Stock market link** https://zerodha.com/varsity/
+## Author
+
+- [Supragya Raj](https://github.com/supragya)
+
+## List of Contributors
+
+TBD
