@@ -1,21 +1,48 @@
-# **StockEmulator**
+# **StockScrutiny-Emulator**
 
 A stock market simulator is a webapp where users and buy and sell real life stocks using fake money. Users have to pay the actual market price and all the other charges to buy the stocks.
 
-##Requirements
+## Requirements
 
 TBD
 
 The following technologies will be used:
-- ReactJS [Frontend]
+- Javascript and jQuery [Frontend]
 - Bootstrap [Frontend]
 - Node.js [Backend]
-- Express.js [Backend]
-- Firebase [Backend]
+- MongoDB with NoSQL [Backend]
+- UDP and TCP Protocol [Network]
 
-##Action Plan
+## Action Plan
 
+### Backend
 
+1. CLIENT
+
+- [ ] Make the protocols for connection between MDU & CLIENT and CLIENT & BOOK.
+- [ ] Make the Backend functions of the CLIENT.
+      - [ ] Reading the data from .json file which was received from MDU.
+      - [ ] Encrypting the buy/sell order to sent it to BOOK server.
+      - [ ] Sending the Encrypted data to BOOK and receiving the acknowledgment from BOOK server.
+      - [ ] Storing the list of stocks available in cache.
+
+2. BOOK  
+
+- [ ] Make the protocols for connection between MDU & BOOK and BOOK & CLIENT.
+- [ ] Make the Database schema for BOOK.
+- [ ] Make the Backend functions of the BOOK.
+     - [ ] Decrypting the data received from CLIENT.
+     - [ ] Reading the data from .json file which was received from MDU.
+     - [ ] Updating the database with the data received from CLIENT and MDU.
+     - [ ] Sending the acknowledgment to the CLIENT.
+
+3. MDU
+
+TBD
+
+### Frontend
+
+~~
 1. There will be a dashboard. Users will only get access to this once they signup for login. This page will also be separated into several components.
 
 - [ ] A component which will show the stock that the user currently holds. It will only be visible when the user click on the show stock button. This component will be situated in the the left side of the webpage.
@@ -30,8 +57,7 @@ The following technologies will be used:
 - [ ] Make a component of signup (for unregistered user)
 - [ ] Make a component of component (button) to switch between login and signup
 - [ ] Assemble all of them into a single webpage.
-
-3. TBD **(Backend)**
+~~
 
 ## Running The Test
 
