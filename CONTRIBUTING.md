@@ -48,7 +48,7 @@
 
 **Otherwise:** When developers who code new features struggle to realize the impact of their change and fear to break other dependant components - deployments become slower and more risky. It's also considered harder to scale-out when all the business units are not separated
 
-🔗 [**Read More: structure by components**](/sections/projectstructre/breakintcomponents.md)
+🔗 [**Read More: structure by components**](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md)
 
 <br/><br/>
 
@@ -451,6 +451,7 @@ All statements above will return false if used with `===`
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
+# `5. Going To Production Practices`
 
 ## ![✔] 5.1. Make your code production-ready
 
