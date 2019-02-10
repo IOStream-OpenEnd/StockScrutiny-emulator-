@@ -1,6 +1,6 @@
 # **StockScrutiny-Emulator**
 
-A stock market simulator is a webapp where users and buy and sell real life stocks using fake money. Users have to pay the actual market price and all the other charges to buy the stocks.
+A stock market simulator is a webapp where users buy and sell real life stocks using virtual money. Users have to pay the actual market price and all the other charges to buy the stocks.
 
 ## Requirements
 
