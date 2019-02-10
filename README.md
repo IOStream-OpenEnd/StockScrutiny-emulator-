@@ -75,7 +75,7 @@ TBD
 
 ## Contribution 
 
-Read the [CONTRIBUTION.md](CONTRIBUTION.md) file.
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 In general, we follow the "fork-and-pull" Git workflow.
 1. Fork the repo on GitHub.
