@@ -4,9 +4,9 @@ A stock market simulator is a webapp where users buy and sell real life stocks u
 
 ## Requirements
 
-The following technologies will be used:
-- Python
-- Django Framework
+You need a working Python 3.6 (3.6.7 to be accurate) environment along with `pip` installed. To install required modules, run :
+  - On Linux/MacOS : `pip3 install -r requirements.txt`
+  - Windows : `pip install -r requirements.txt`
 
 ## Action Plan
 
@@ -78,7 +78,7 @@ In general, we follow the "branch-and-pull" Git workflow.
     3. Run tests and make sure they pass.
     4. Add changes to README.md if needed.
 4. Commit changes to your own branch.
-5. Make sure you merge the latest from "`master`" and resolve conflicts if there is any.
+5. Make sure you merge the latest from `master` and resolve conflicts if there is any.
 6. Repeat step 3 above.
 7. Push your work back up to your branch.
 8. Submit a Pull request so that we can review your changes.
