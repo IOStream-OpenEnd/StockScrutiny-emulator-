@@ -7,11 +7,8 @@ A stock market simulator is a webapp where users buy and sell real life stocks u
 TBD
 
 The following technologies will be used:
-- Javascript and jQuery [Frontend]
-- Bootstrap [Frontend]
-- Node.js [Backend]
-- MongoDB with NoSQL [Backend]
-- UDP and TCP Protocol [Network]
+- Python
+- Django Framework
 
 ## Action Plan
 
