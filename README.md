@@ -4,8 +4,6 @@ A stock market simulator is a webapp where users buy and sell real life stocks u
 
 ## Requirements
 
-TBD
-
 The following technologies will be used:
 - Python
 - Django Framework
